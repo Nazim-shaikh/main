@@ -2,9 +2,24 @@ body {
 	background-image:url(underwater.jpg);
 	background-repeat:no-repeat;
 	background-size:cover;
+	font-size:26px;
+	color:white;
+}
+#p {
+	color:#312626d1;
+	font-size:50;
+	text-align:center;
+	font-style:italic;
 }
 
 .button {
-	background-color:transparent;
-	border-color:white;
+ background-color: transparent;
+  border-color:#312626d1;
+  color:#312626d1;
+  border:2px solid #312626d1;
+  border-radius:20px;
+  padding: 5px 25px;
+  text-align: center;
+  text-decoration: none;
+  
 }
