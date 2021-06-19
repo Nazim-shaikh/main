@@ -1,0 +1,10 @@
+body {
+	background-image:url(underwater.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+
+.button {
+	background-color:transparent;
+	border-color:white;
+}
