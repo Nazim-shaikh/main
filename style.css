@@ -2,24 +2,81 @@ body {
 	background-image:url(underwater.jpg);
 	background-repeat:no-repeat;
 	background-size:cover;
+	height:100%;
 	font-size:26px;
 	color:white;
 }
 #p {
-	color:#312626d1;
+	color:hsla(0, 4%, 9%, 0.774);
+	background-color: rgba(19, 189, 231, 0.295);
 	font-size:50;
+	border-radius: 30px;
 	text-align:center;
 	font-style:italic;
 }
 
+
+
+
 .button {
- background-color: transparent;
-  border-color:#312626d1;
-  color:#312626d1;
-  border:2px solid #312626d1;
+ background-color:rgba(19, 189, 231, 0.171);
+  border-color:hsla(0, 0%, 0%, 0.82);
+  color:hsla(0, 0%, 2%, 0.774);
+  border:2px solid hsla(214, 89%, 45%, 0.82);
   border-radius:20px;
   padding: 5px 25px;
   text-align: center;
   text-decoration: none;
   
+}
+
+.bubbles img{
+	width:50px;
+	animation: bubble 7s linear infinite;
+	
+}
+.bubbles{
+	width:100%;
+	display:flex;
+	align-items:center;
+	justify-content:space-around;
+	position:absolute;
+	bottom: -70px;
+}
+
+@keyframes bubble{
+	0%{
+	    transform: translateY(0);
+		opacity:0;
+	}
+	50%{
+		opacity:1;
+	}
+	70%{
+		opacity:1;
+	}
+	100%{
+		transform: translateY(-80vh);
+		opacity:0;
+	}
+	
+}
+
+.bubbles img:nth-child(1){
+	animation-delay: 2s;
+}
+.bubbles img:nth-child(2){
+	animation-delay: 1s;
+}
+.bubbles img:nth-child(3){
+	animation-delay: 3s;
+}
+.bubbles img:nth-child(4){
+	animation-delay: 6s;
+}
+.bubbles img:nth-child(5){
+	animation-delay: 5s;
+}
+.bubbles img:nth-child(6){
+	animation-delay: 7s;
 }
