@@ -7,24 +7,26 @@ body {
 }
 #p {
 	color:hsla(0, 0%, 100%, 0.774);
-	text-shadow:6px 1px  #00000086;
+	text-shadow: 1px 1px 2px #002beb, 0 0 25px #0934c0, 0 0 5px #0a97cf;
 	background-color: rgba(19, 189, 231, 0.295);
 	font-size:50;
 	border-radius: 30px;
 	text-align:center;
 	font-style:italic;
+	animation: change 5s infinite;
 }
 
 
 .button {
  background-color: transparent;
-  border-color:hsla(216, 77%, 40%, 0.82);
+  border-color:hsla(216, 77%, 40%, 0);
   color:hsla(0, 0%, 100%, 0.774);
   border:2px solid #ffffffd1;
   border-radius:20px;
   padding: 5px 25px;
   text-align: center;
   text-decoration: none;
+  animation: change 5s infinite;
   
 }
 
@@ -77,4 +79,38 @@ body {
 }
 .bubbles img:nth-child(6){
 	animation-delay: 7s;
+}
+
+@keyframes change{
+	0%{
+		box-shadow: 1px 1px 2px #a55629, 1px 1px 5px #e0c114, 0 0 5px #df8209;
+		opacity:1;
+		}	
+		25%{
+		box-shadow: 1px 1px 2px #86e706, 1px 1px 5px rgb(35, 209, 29), 0 0 5px rgb(84, 238, 13);
+		opacity:1;
+		}
+		50%{
+		box-shadow: 1px 1px 2px rgb(240, 198, 10), 1px 1px 5px rgb(233, 211, 20), 0 0 5px rgb(219, 198, 8);
+		opacity:1;
+		}	
+		75%{
+		box-shadow: 1px 1px 2px rgb(6, 224, 152), 1px 1px 5px rgb(16, 161, 187), 0 0 5px rgb(7, 179, 136);
+		opacity:1;
+		}	
+		100%{
+		box-shadow: 1px 1px 2px rgba(0, 60, 255, 0.664), 1px 1px 5px rgba(10, 49, 133, 0.733), 0 0 5px rgb(26, 72, 172);
+		opacity:1;
+		}	
+		75%{
+		box-shadow: 1px 1px 2px rgb(162, 1, 226), 1px 1px 5px rgb(111, 12, 192), 0 0 5px rgb(61, 8, 206);
+		opacity:1;
+		}
+		50%{
+		box-shadow: 1px 1px 2px rgb(255, 5, 159), 1px 1px 5px rgb(202, 10, 177), 0 0 5px rgba(187, 7, 211, 0.986);
+		opacity:1;
+		}	
+
+	
+	
 }
