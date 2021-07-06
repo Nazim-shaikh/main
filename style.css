@@ -1,14 +1,15 @@
 body {
-	background-image:url(underwater.jpg);
+	background-image:url(background.jpg);
 	background-repeat:no-repeat;
 	background-size:cover;
 	font-size:26px;
 	color:white;
 }
+
 #p {
 	color:hsla(0, 0%, 100%, 0.774);
-	text-shadow: 1px 1px 2px #002beb, 0 0 25px #0934c0, 0 0 5px #0a97cf;
-	background-color: rgba(19, 189, 231, 0.295);
+	text-shadow: 1px 1px 2px #c2560f, 0 0 25px #913713, 0 0 5px #b36a0b;
+	background-color: rgba(231, 114, 19, 0.13);
 	font-size:50;
 	border-radius: 30px;
 	text-align:center;
@@ -16,12 +17,11 @@ body {
 	animation: change 7s infinite;
 }
 
-
 .button {
  background-color: transparent;
   border-color:hsla(216, 77%, 40%, 0);
   color:hsla(0, 0%, 100%, 0.774);
-  border:2px solid #ffffffd1;
+  border:2px solid #ce530cd1;
   border-radius:20px;
   padding: 5px 25px;
   text-align: center;
@@ -29,6 +29,7 @@ body {
   animation: change 7s infinite;
   
 }
+
 
 .bubbles img{
 	width:50px;
@@ -83,31 +84,31 @@ body {
 
 @keyframes change{
 	0%{
-		box-shadow: 1px 1px 2px #a55629, 1px 1px 5px #e0c114, 0 0 5px #df8209;
+		box-shadow: 1px 1px 2px #a55629, 1px 1px 5px #ac3612, 0 0 5px #df8209;
 		opacity:1;
 		}	
 		25%{
-		box-shadow: 1px 1px 2px #86e706, 1px 1px 5px rgb(35, 209, 29), 0 0 5px rgb(84, 238, 13);
+		box-shadow: 1px 1px 2px #f3662e, 1px 1px 5px rgb(192, 57, 23), 0 0 5px rgb(231, 100, 60);
 		opacity:1;
 		}
 		50%{
-		box-shadow: 1px 1px 2px rgb(240, 198, 10), 1px 1px 5px rgb(233, 211, 20), 0 0 5px rgb(219, 198, 8);
+		box-shadow: 1px 1px 2px rgb(151, 74, 10), 1px 1px 5px rgb(177, 100, 12), 0 0 5px rgb(219, 110, 8);
 		opacity:1;
 		}	
 		75%{
-		box-shadow: 1px 1px 2px rgb(6, 224, 152), 1px 1px 5px rgb(16, 161, 187), 0 0 5px rgb(7, 179, 136);
+		box-shadow: 1px 1px 2px rgb(172, 41, 8), 1px 1px 5px rgb(214, 56, 8), 0 0 5px rgb(196, 61, 37);
 		opacity:1;
 		}	
 		100%{
-		box-shadow: 1px 1px 2px rgba(0, 60, 255, 0.664), 1px 1px 5px rgba(10, 49, 133, 0.733), 0 0 5px rgb(26, 72, 172);
+		box-shadow: 1px 1px 2px rgba(136, 32, 13, 0.664), 1px 1px 5px rgba(219, 55, 26, 0.733), 0 0 5px rgb(201, 13, 13);
 		opacity:1;
 		}	
 		75%{
-		box-shadow: 1px 1px 2px rgb(162, 1, 226), 1px 1px 5px rgb(111, 12, 192), 0 0 5px rgb(61, 8, 206);
+		box-shadow: 1px 1px 2px rgb(216, 46, 16), 1px 1px 5px rgb(228, 59, 37), 0 0 5px rgba(206, 81, 8, 0.877);
 		opacity:1;
 		}
 		50%{
-		box-shadow: 1px 1px 2px rgb(255, 5, 159), 1px 1px 5px rgb(202, 10, 177), 0 0 5px rgba(187, 7, 211, 0.986);
+		box-shadow: 1px 1px 2px rgba(170, 72, 16, 0.753), 1px 1px 5px rgb(238, 85, 25), 0 0 5px rgba(236, 80, 32, 0.986);
 		opacity:1;
 		}	
 
