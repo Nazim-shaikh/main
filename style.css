@@ -17,18 +17,21 @@ body {
 	animation: change 7s infinite;
 }
 
-.button {
- background-color: transparent;
-  border-color:hsla(216, 77%, 40%, 0);
-  color:hsla(0, 0%, 100%, 0.774);
-  border:2px solid #ce530cd1;
-  border-radius:20px;
-  padding: 5px 25px;
-  text-align: center;
-  text-decoration: none;
-  animation: change 7s infinite;
-  
-}
+
+	.button {
+		background-color: transparent;
+		 border-color:hsla(216, 77%, 40%, 0);
+		 color:hsla(0, 100%, 100%, 0.774);
+		 text-shadow: 1px 1px 2px #c2560f, 0 0 25px #913713, 0 0 5px #b36a0b;
+		 border:2px solid #ce530cd1;
+		 border-radius:20px;
+		 padding: 5px 25px;
+		 text-align: center;
+		 text-decoration: none;
+		 animation: change 7s infinite;
+		 
+	   }
+
 
 
 .bubbles img{
